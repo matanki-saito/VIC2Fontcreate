@@ -27,5 +27,6 @@
 - bmfont64.exe : zlib license
 - [源ノ明朝](https://github.com/adobe-fonts/source-han-serif) : SIL Open Font License 1.1
 - [源ノ角ゴシック](https://github.com/adobe-fonts/source-han-sans) : SIL Open Font License 1.1
+- [大正略字フォント](https://booth.pm/ja/items/363104) : SIL Open Font License 1.1
 - nvcompress: MIT license
 - Add-Font.ps1 : free

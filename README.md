@@ -1,4 +1,4 @@
-# CK2 fontcreate
+# VIC2 fontcreate
 
 ## Overview
 

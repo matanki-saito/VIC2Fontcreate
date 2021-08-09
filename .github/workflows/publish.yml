@@ -38,6 +38,7 @@ jobs:
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/SourceHanSerifJP-SemiBold.otf
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/SourceHanSerifJP-Heavy.otf
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/taisyoRyakuji.ttf
+          ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/GenShinGothic-Heavy.ttf
           add-type -AssemblyName system.drawing
           (New-Object System.Drawing.Text.InstalledFontCollection).Families
         shell: powershell
@@ -47,6 +48,28 @@ jobs:
       - name: generate map fonts and copy to out directory
         run: |
           cd 3_map_text
+          New-Item out -ItemType Directory
+          python generate.py
+          cd out
+          dir
+          cd ../
+          Move-Item out/*.fnt ../fonts/
+          Move-Item out/*.tga ../fonts/
+        shell: powershell
+      - name: generate ledger title font and copy to out directory
+        run: |
+          cd 4_ledger_title
+          New-Item out -ItemType Directory
+          python generate.py
+          cd out
+          dir
+          cd ../
+          Move-Item out/*.fnt ../fonts/
+          Move-Item out/*.tga ../fonts/
+        shell: powershell
+      - name: generate news title font and copy to out directory
+        run: |
+          cd 5_news_title
           New-Item out -ItemType Directory
           python generate.py
           cd out

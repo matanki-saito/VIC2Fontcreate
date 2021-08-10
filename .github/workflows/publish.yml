@@ -37,8 +37,8 @@ jobs:
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/SourceHanSerifJP-Regular.otf
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/SourceHanSerifJP-SemiBold.otf
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/SourceHanSerifJP-Heavy.otf
-          ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/taisyoRyakuji.ttf
           ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/GenShinGothic-Heavy.ttf
+          ./Add-Font.ps1 -ExecutionPolicy unrestricted ./fonts/TrainOne-Regular.ttf
           add-type -AssemblyName system.drawing
           (New-Object System.Drawing.Text.InstalledFontCollection).Families
         shell: powershell

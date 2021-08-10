@@ -2,7 +2,7 @@
 fileVersion=1
 
 # font settings
-fontName=taisyoRyakuji
+fontName=Gen Shin Gothic Heavy
 fontFile=
 charSet=0
 fontSize=60
@@ -11,7 +11,6 @@ scaleH=100
 useSmoothing=1
 isBold=1
 isItalic=0
-isMap=1
 useUnicode=1
 disableBoxChars=1
 outputInvalidCharGlyph=0
@@ -48,8 +47,9 @@ invG=0
 invB=0
 
 # outline
-outlineThickness=0
+outlineThickness=2
 
 # selected chars
+
 
 # imported icon images

@@ -31,7 +31,7 @@ forceZero=0
 
 # output file
 outWidth=512
-outHeight=512
+outHeight=1024
 outBitDepth=32
 fontDescFormat=0
 fourChnlPacked=0

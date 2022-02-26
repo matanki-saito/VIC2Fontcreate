@@ -30,7 +30,7 @@ useFixedHeight=0
 forceZero=0
 
 # output file
-outWidth=1024
+outWidth=2048
 outHeight=2048
 outBitDepth=32
 fontDescFormat=0
